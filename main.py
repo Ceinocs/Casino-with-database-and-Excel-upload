@@ -86,7 +86,7 @@ class AppMenu:
         connection.close()
 
         if self.result is not None:
-            self.User_name = user_name
+            self.user_name = user_name
             print(f'\nВы успешно вошли! С возвращением, {user_name}!')
             self.game_menu()
         else:
